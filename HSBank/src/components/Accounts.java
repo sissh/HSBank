@@ -1,7 +1,7 @@
 package components;
 
 //1.2.1 Creation of the account class
-public abstract class Accounts {
+public abstract class Accounts implements Comparable<Accounts>{
 	protected String label;
 	protected Double balance = 0.00;
 	protected Integer accountNumber;
@@ -51,4 +51,12 @@ public abstract class Accounts {
 		return "Account number: " + accountNumber + " | Client: " + client.getFirstName() + " " + client.getName() + 
 				" | Label: " + label + " | Balance: " + String.format("%.2f", balance);
 	}
+	
+	//1.3.1 Using hashmaps for accounts
+	@Override
+	public int compareTo(Accounts argAccount) {
+		return Double.compare(this.balance, argAccount.balance);
+	}
+	
+
 }
