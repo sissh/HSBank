@@ -8,6 +8,10 @@ import utils.*;
 public class Main {
 	public static void main (String[]args) {
 		ArrayList<Client> clients = Generators.generateClients(10);
-		Displays.displayClients(clients);
+		//Displays.displayClients(clients);
+		
+		//1.2.3 Creation of the table of accounts
+		ArrayList<Accounts> accounts = Generators.generateAccounts(clients);
+		Displays.displayAccounts(accounts);
 	}
 }
