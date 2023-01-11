@@ -1,142 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Accounts>
   <CurrentAccount>
     <AccountNumber>1</AccountNumber>
-    <Client>testFirstName0 testName0</Client>
+    <Client>
+      <Name>testName0</Name>
+      <FirstName>testFirstName0</FirstName>
+      <ClientNumber>1</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>18,31</Balance>
+    <Balance>0.4131584525510634</Balance>
   </CurrentAccount>
 
   <CurrentAccount>
     <AccountNumber>2</AccountNumber>
-    <Client>testFirstName1 testName1</Client>
+    <Client>
+      <Name>testName1</Name>
+      <FirstName>testFirstName1</FirstName>
+      <ClientNumber>2</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>13,23</Balance>
+    <Balance>15.401547764980803</Balance>
   </CurrentAccount>
 
   <CurrentAccount>
     <AccountNumber>3</AccountNumber>
-    <Client>testFirstName2 testName2</Client>
+    <Client>
+      <Name>testName2</Name>
+      <FirstName>testFirstName2</FirstName>
+      <ClientNumber>3</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>1,77</Balance>
+    <Balance>15.228837544485113</Balance>
   </CurrentAccount>
 
   <CurrentAccount>
     <AccountNumber>4</AccountNumber>
-    <Client>testFirstName3 testName3</Client>
+    <Client>
+      <Name>testName3</Name>
+      <FirstName>testFirstName3</FirstName>
+      <ClientNumber>4</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>8,97</Balance>
+    <Balance>3.5394428117234122</Balance>
   </CurrentAccount>
 
   <CurrentAccount>
     <AccountNumber>5</AccountNumber>
-    <Client>testFirstName4 testName4</Client>
+    <Client>
+      <Name>testName4</Name>
+      <FirstName>testFirstName4</FirstName>
+      <ClientNumber>5</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>3,54</Balance>
+    <Balance>13.521167679092523</Balance>
   </CurrentAccount>
 
   <CurrentAccount>
     <AccountNumber>6</AccountNumber>
-    <Client>testFirstName5 testName5</Client>
+    <Client>
+      <Name>testName5</Name>
+      <FirstName>testFirstName5</FirstName>
+      <ClientNumber>6</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>14,44</Balance>
+    <Balance>0.8205668362522278</Balance>
   </CurrentAccount>
 
   <CurrentAccount>
     <AccountNumber>7</AccountNumber>
-    <Client>testFirstName6 testName6</Client>
+    <Client>
+      <Name>testName6</Name>
+      <FirstName>testFirstName6</FirstName>
+      <ClientNumber>7</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>16,40</Balance>
+    <Balance>9.122038321732543</Balance>
   </CurrentAccount>
 
   <CurrentAccount>
     <AccountNumber>8</AccountNumber>
-    <Client>testFirstName7 testName7</Client>
+    <Client>
+      <Name>testName7</Name>
+      <FirstName>testFirstName7</FirstName>
+      <ClientNumber>8</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>14,79</Balance>
+    <Balance>5.149437498249112</Balance>
   </CurrentAccount>
 
   <CurrentAccount>
     <AccountNumber>9</AccountNumber>
-    <Client>testFirstName8 testName8</Client>
+    <Client>
+      <Name>testName8</Name>
+      <FirstName>testFirstName8</FirstName>
+      <ClientNumber>9</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>4,39</Balance>
+    <Balance>0.18003156866401193</Balance>
   </CurrentAccount>
 
   <CurrentAccount>
     <AccountNumber>10</AccountNumber>
-    <Client>testFirstName9 testName9</Client>
+    <Client>
+      <Name>testName9</Name>
+      <FirstName>testFirstName9</FirstName>
+      <ClientNumber>10</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>9,72</Balance>
+    <Balance>9.243779823710714</Balance>
   </CurrentAccount>
 
   <SavingsAccount>
     <AccountNumber>11</AccountNumber>
-    <Client>testFirstName0 testName0</Client>
+    <Client>
+      <Name>testName0</Name>
+      <FirstName>testFirstName0</FirstName>
+      <ClientNumber>1</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>12,39</Balance>
+    <Balance>17.688090025146632</Balance>
   </SavingsAccount>
 
   <SavingsAccount>
     <AccountNumber>12</AccountNumber>
-    <Client>testFirstName1 testName1</Client>
+    <Client>
+      <Name>testName1</Name>
+      <FirstName>testFirstName1</FirstName>
+      <ClientNumber>2</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>12,07</Balance>
+    <Balance>8.235707458986269</Balance>
   </SavingsAccount>
 
   <SavingsAccount>
     <AccountNumber>13</AccountNumber>
-    <Client>testFirstName2 testName2</Client>
+    <Client>
+      <Name>testName2</Name>
+      <FirstName>testFirstName2</FirstName>
+      <ClientNumber>3</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>19,77</Balance>
+    <Balance>6.194673332027398</Balance>
   </SavingsAccount>
 
   <SavingsAccount>
     <AccountNumber>14</AccountNumber>
-    <Client>testFirstName3 testName3</Client>
+    <Client>
+      <Name>testName3</Name>
+      <FirstName>testFirstName3</FirstName>
+      <ClientNumber>4</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>19,37</Balance>
+    <Balance>8.149017713318116</Balance>
   </SavingsAccount>
 
   <SavingsAccount>
     <AccountNumber>15</AccountNumber>
-    <Client>testFirstName4 testName4</Client>
+    <Client>
+      <Name>testName4</Name>
+      <FirstName>testFirstName4</FirstName>
+      <ClientNumber>5</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>2,51</Balance>
+    <Balance>6.222795347987571</Balance>
   </SavingsAccount>
 
   <SavingsAccount>
     <AccountNumber>16</AccountNumber>
-    <Client>testFirstName5 testName5</Client>
+    <Client>
+      <Name>testName5</Name>
+      <FirstName>testFirstName5</FirstName>
+      <ClientNumber>6</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>6,17</Balance>
+    <Balance>7.74745267567674</Balance>
   </SavingsAccount>
 
   <SavingsAccount>
     <AccountNumber>17</AccountNumber>
-    <Client>testFirstName6 testName6</Client>
+    <Client>
+      <Name>testName6</Name>
+      <FirstName>testFirstName6</FirstName>
+      <ClientNumber>7</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>13,72</Balance>
+    <Balance>7.185318907890328</Balance>
   </SavingsAccount>
 
   <SavingsAccount>
     <AccountNumber>18</AccountNumber>
-    <Client>testFirstName7 testName7</Client>
+    <Client>
+      <Name>testName7</Name>
+      <FirstName>testFirstName7</FirstName>
+      <ClientNumber>8</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>3,85</Balance>
+    <Balance>4.788280818565647</Balance>
   </SavingsAccount>
 
   <SavingsAccount>
     <AccountNumber>19</AccountNumber>
-    <Client>testFirstName8 testName8</Client>
+    <Client>
+      <Name>testName8</Name>
+      <FirstName>testFirstName8</FirstName>
+      <ClientNumber>9</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>18,15</Balance>
+    <Balance>7.365728214181595</Balance>
   </SavingsAccount>
 
   <SavingsAccount>
     <AccountNumber>20</AccountNumber>
-    <Client>testFirstName9 testName9</Client>
+    <Client>
+      <Name>testName9</Name>
+      <FirstName>testFirstName9</FirstName>
+      <ClientNumber>10</ClientNumber>
+    </Client>
     <Label>label</Label>
-    <Balance>10,98</Balance>
+    <Balance>13.648869697373646</Balance>
   </SavingsAccount>
 
 </Accounts>
