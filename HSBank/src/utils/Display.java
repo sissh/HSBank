@@ -8,17 +8,17 @@ import components.*;
 
 
 public class Display {
-	//1.1.2 Creation of table of clients
+	//1.1.2 Display content of clients array
 	public static void displayClients(ArrayList<Client> clients) {
 		clients.stream().forEach(System.out::println);
 	}
 	
-	//1.2.3 Creation of the table of accounts
+	//1.2.3 Display content of accounts array
 	public static void displayAccounts(ArrayList<Account> accounts) {
 		accounts.stream().forEach(System.out::println);
 	}
 	
-	//1.3.1 Using hashmaps for accounts
+	//1.3.1 Display sorted hashmap of accounts
 	public static void displayHashAccounts(HashMap<Integer, Account> accounts) {
 		accounts.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEach(System.out::println);
 	}

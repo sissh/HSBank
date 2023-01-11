@@ -72,7 +72,7 @@ public abstract class Account implements Comparable<Account>{
 				" | Label: " + label + " | Balance: " + String.format("%.2f", balance) + "€";
 	}
 	
-	//1.3.1 Using hashmaps for accounts
+	//1.3.1 Allow for comparisons between accounts through balance attribute
 	@Override
 	public int compareTo(Account argAccount) {
 		return Double.compare(this.balance, argAccount.balance);

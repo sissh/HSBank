@@ -1,0 +1,202 @@
+{
+"flows": [ 
+  { 
+    "flowType": "Debit",
+    "targetAccountNumber": "1",
+    "amount": "50,00",
+    "comment": "Debit from account 1",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "1",
+    "amount": "100,50",
+    "comment": "Credit to current account 1",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "2",
+    "amount": "100,50",
+    "comment": "Credit to current account 2",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "3",
+    "amount": "100,50",
+    "comment": "Credit to current account 3",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "4",
+    "amount": "100,50",
+    "comment": "Credit to current account 4",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "5",
+    "amount": "100,50",
+    "comment": "Credit to current account 5",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "6",
+    "amount": "100,50",
+    "comment": "Credit to current account 6",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "7",
+    "amount": "100,50",
+    "comment": "Credit to current account 7",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "8",
+    "amount": "100,50",
+    "comment": "Credit to current account 8",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "9",
+    "amount": "100,50",
+    "comment": "Credit to current account 9",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "10",
+    "amount": "100,50",
+    "comment": "Credit to current account 10",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "11",
+    "amount": "1500,00",
+    "comment": "Credit to savings account 11",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "12",
+    "amount": "1500,00",
+    "comment": "Credit to savings account 12",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "13",
+    "amount": "1500,00",
+    "comment": "Credit to savings account 13",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "14",
+    "amount": "1500,00",
+    "comment": "Credit to savings account 14",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "15",
+    "amount": "1500,00",
+    "comment": "Credit to savings account 15",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "16",
+    "amount": "1500,00",
+    "comment": "Credit to savings account 16",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "17",
+    "amount": "1500,00",
+    "comment": "Credit to savings account 17",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "18",
+    "amount": "1500,00",
+    "comment": "Credit to savings account 18",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "19",
+    "amount": "1500,00",
+    "comment": "Credit to savings account 19",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "flowType": "Credit",
+    "targetAccountNumber": "20",
+    "amount": "1500,00",
+    "comment": "Credit to savings account 20",
+    "effect": "true",
+    "date": "2023-01-13"
+  },
+
+  { 
+    "issuerAccountNumber": "1",
+    "targetAccountNumber": "2",
+    "flowType": "Transfer",
+    "amount": "60,00",
+    "comment": "Transfer from account 1 to account 2",
+    "effect": "true",
+    "date": "2023-01-13"
+  }
+ ]
+}
