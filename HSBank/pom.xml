@@ -9,7 +9,7 @@
     
     <resources>
         <resource>
-          <directory>./resources</directory>
+          <directory>resources</directory>
         </resource>
       </resources>
     <plugins>
