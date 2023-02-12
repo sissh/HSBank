@@ -7,11 +7,7 @@
 	  
     <sourceDirectory>src</sourceDirectory>
     
-    <resources>
-        <resource>
-          <directory>resources</directory>
-        </resource>
-      </resources>
+
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -21,6 +17,20 @@
         </configuration>
       </plugin>      
       
+       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.4.1</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      
       <plugin>
       <!-- Build an executable JAR -->
       <groupId>org.apache.maven.plugins</groupId>
@@ -29,9 +39,8 @@
       <configuration>
         <archive>
           <manifest>
-            <addClasspath>true</addClasspath>
-            <classpathPrefix>lib/</classpathPrefix>
             <mainClass>main.Main</mainClass>
+            <useUniqueVersions>false</useUniqueVersions>
           </manifest>
         </archive>
       </configuration>
