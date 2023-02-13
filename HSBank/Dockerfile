@@ -17,5 +17,4 @@ RUN mvn -f ./pom.xml clean package
 FROM openjdk:17-jdk-slim
 COPY --from=build /app/target/HSBank-0.0.1-SNAPSHOT.jar /usr/local/lib/HSBank.jar
 RUN mkdir /resources
-EXPOSE 8080
 ENTRYPOINT ["java","-jar","/usr/local/lib/HSBank.jar"]
